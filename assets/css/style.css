@@ -1,0 +1,67 @@
+
+body{
+	background-image: url('../images/congruent_pentagon.png')
+}
+
+
+#jumbotron{
+	margin-left: 15px;
+	margin-right:700px;
+	background-color:#C77131;
+	color:white;
+	text-align:center;
+	clear:both;
+}
+
+#instructions {
+	margin-left: 15px;
+	background-color:#FAE6CE;
+	color:#5F9860;
+	text-align:left;
+	margin-top: 25px;
+	padding-bottom: 40px;
+	padding-top: 15px;
+	margin-right:500px;
+
+}
+#toguess{
+	background-color: #60C780;
+	height:175px;
+	margin-top: 15px;
+}
+#winloss{
+	background-color: #56FDFD;
+	height:175px;
+	margin-left:30px;
+	margin-right: 1000px
+	
+
+}
+#one{
+	height:100px;
+	margin-top: 25px;
+}
+
+#two{
+	height:100px;
+	margin-top: 25px;
+}
+#three{
+	height:100px;
+	margin-top: 25px;
+}
+#four{
+	height:100px;
+	margin-top: 25px;
+}
+#yourscore{
+	background-color:#33A194;
+	margin-right:1200px;
+	margin-top: 25px;	
+}
+
+#score{
+	background-color: #33A194;	
+	height:175px;
+	margin-top:15px;
+}

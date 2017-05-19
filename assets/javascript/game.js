@@ -79,3 +79,18 @@ $('#four').on('click',function(){
 			loser();
 		}
 })
+
+
+
+//Reset
+
+function reset(){
+	randomnum=Math.floor(Math.random()*101+19);
+	$('#toguess').text(randomnum);
+		gemone=Math.floor(Math.random()*11+1);
+		gemtwo=Math.floor(Math.random()*11+1);
+		gemthree=Math.floor(Math.random()*11+1);
+		gemfour=Math.floor(Math.random()*11+1);
+		yourscore=0;
+		$('#yourscore').text(yourscore)
+}
